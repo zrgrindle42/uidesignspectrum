@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <style>
+    .container {
+      width: 100%;
+      height: 200px;
+      background-color: white;
+      display: flex;
+    }
+
+    .header {
+      width: 100%;
+      height: 10%;
+      background-color: blue;
+      display: flex;
+      
+    }
+
+    
+
+.tab {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 10px;
+}
+
+.divider {
+  width: 10px;
+  height: 50px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+    
+
+    .content {
+      width: 100%;
+      height: 90%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  margin-left: auto;
+  margin-top: 10px; /* Add margin-top to move the title to the top */
+  order: -1; /* Move the title to the top using flexbox order property */
+}
+
+   
+
+
+   
+
+    .searchbar {
+      width: 76%;
+      height: 300px;
+      background-color: orange;
+      border: 1px solid whitesmoke;
+      padding: 10px;
+      font-size: 20px;
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .searchbar input{
+        width: 40%;
+  height: 10px;
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  font-size: 16px;
+}
+    
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="tab">Tab 1</div>
+        <div class="divider"></div>
+        <div class="tab">Tab 2</div>
+        <div class="divider"></div>
+        <div class="tab">Tab 3</div>
+        <div class="divider"></div>
+        <div class="tab">Tab 4</div>
+
+      </div>
+      
+    <div class="content">
+      
+      <div class="searchbar">
+        <input type="text" placeholder="Search for academic interests">
+        <div class="divider"></div>
+        <input type="text" placeholder="Search for academic interests">
+        <div class="divider"></div>
+        <input type="text" placeholder="Search for academic interests">
+        <div class="divider"></div>
+        <input type="text" placeholder="Search for academic interests">
+
+        <div class="title">List Your Academic Interests</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
