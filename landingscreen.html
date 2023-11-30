@@ -6,50 +6,54 @@
   <script src="landingscreen.js"></script>
 </head>
 <body>
-    <div class="container">
-      <div class="tab"><a href="#academic-course2">Tab 1</a></div>
+    <div id="home" class="container">
+      <div class="tab"><a href="#home">Home</a></div>
       <div class="divider"></div>
-      <div class="tab"><a href="#academic-course2">Tab 2</a></div>
+      <div class="tab"><a href="#academic-course">Courses Part 1</a></div>
       <div class="divider"></div>
-      <div class="tab"><a href="#academic-course2">Tab 3</a></div>
+      <div class="tab"><a href="#academic-course2">Courses Part 2</a></div>
       <div class="divider"></div>
-      <div class="tab"><a href="#academic-course2">Tab 4</a></div>
+      <div class="tab"><a href="#about-us">About Us</a></div>
     </div>
       
     <div class="content">
       
       <div class="firstbox">
         <div class="title">Pick Your Academic Interest</div>
-        <div id="stats_class" class="classcontainers">Statistics 1</div>
-        <div id="science_class" class="classcontainers">Science</div>
-        <div id="design_class" class="classcontainers">UI Design & Evaluation</div>
-        <div id="geography_class" class="classcontainers">Geography</div>
-        <div id="algebra_class" class="classcontainers">Linear Algebra</div>
+        <div class="class-wrapper">
+          <div id="stats_class" class="classcontainers">Statistics 1</div>
+          <div id="science_class" class="classcontainers">Science</div>
+          <div id="design_class" class="classcontainers">UI Design & Evaluation</div>
+          <div id="geography_class" class="classcontainers">Geography</div>
+          <div id="algebra_class" class="classcontainers">Linear Algebra</div>
+        </div>
       </div>
       <div class = "gap">Academic course topic demo</div>
-            <div class = "ac-vp">
-                <div class="academic-course">
-                    <div class="list">
-                      <div id="course_1_item_1" class="list-item">Select An Interest</div>
-                      <div class="divider"></div>
-                      <div id="course_1_item_2" class="list-item">Select An Interest</div>
-                      <div class="divider"></div>
-                      <div id="course_1_item_3" class="list-item">Select An Interest</div>
-                      <div class="divider"></div>
-                      <div id="course_1_item_4" class="list-item">Select An Interest</div>
-                      <div class="divider"></div>
-                      <div id="course_1_item_5" class="list-item">Select An Interest</div>
-                      <div class="divider"></div>
-                      <div id="course_1_item_6" class="list-item">Select An Interest</div>
-                      <!-- Add more items and dividers as needed -->
-                    </div>
-                  </div>
-            <div class = "video-player"></div>
-            
-            </div>
-      <div class = "gap"></div>
+      <div class = "ac-vp">
+        <div id="academic-course" class="academic-course">
+          <div class="list">
+            <div id="course_1_item_1" class="list-item">Select An Interest</div>
+            <div class="divider"></div>
+            <div id="course_1_item_2" class="list-item">Select An Interest</div>
+            <div class="divider"></div>
+            <div id="course_1_item_3" class="list-item">Select An Interest</div>
+            <div class="divider"></div>
+            <div id="course_1_item_4" class="list-item">Select An Interest</div>
+            <div class="divider"></div>
+            <div id="course_1_item_5" class="list-item">Select An Interest</div>
+            <div class="divider"></div>
+            <div id="course_1_item_6" class="list-item">Select An Interest</div>
+            <!-- Add more items and dividers as needed -->
+          </div>
+        </div>
+        <div class = "video-player">
+          <img class="course-image" src="Spectrum-logo.png" alt="Spectrum"/>
+        </div>
+      </div>
       <div class = "ac-vp">     
-        <div class = "video-player2"></div>
+        <div class = "video-player2">
+          <img class="course-image" src="Spectrum-logo.png" alt="Spectrum"/>
+        </div>
         <div id = "academic-course2">
           <div class="list">
             <div id="course_2_item_1" class="list-item">Select An Interest</div>
@@ -66,43 +70,26 @@
           </div>
         </div>
       </div>
-
-      <div class = "gap"></div>
-            <div class = "firstbox">
-            
-            </div>
-        <div class="gap"></div>
-        <div class="about-us-container">
-          <div class="generic-title">About Us</div>
-          <div class="videos-container">
-            <div class="about-us-video">
-              <div class="video-placeholder">Video</div>
-            </div>
-            <div class="about-us-video">
-              <div class="video-placeholder">Video</div>
-            </div>
-            <div class="about-us-video">
-              <div class="video-placeholder">Video</div>
-            </div>
-          </div>
-          <div class="investor-container">
-            <div class="generic-title investor">Our Investor</div>
-            <div class="logo-container">
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-              <div class="logo">logo</div>
-            </div>
+      <div id="about-us" class="about-us-container">
+        <div class="generic-title">About Us</div>
+        <div class="videos-container">
+          <div class="about-us-video about-image"></div>
+          <div class="about-us-video about-image-two"></div>
+          <div class="about-us-video about-image-three"></div>
+        </div>
+        <div class="investor-container">
+          <div class="generic-title investor">Our Sponsors</div>
+          <div class="logo-container">
+            <div class="logo">Auburn University</div>
+            <div class="logo">Philips</div>
+            <div class="logo">Walmart</div>
+            <div class="logo">Kohler</div>
+            <div class="logo">Wells Fargo</div>
+            <div class="logo">PNC</div>
+            <div class="logo">Spectrum</div>
           </div>
         </div>
-
-
-
-
-              
+      </div>
   </div>
 </body>
 </html>
